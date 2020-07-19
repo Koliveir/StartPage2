@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Page 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=Ubuntu:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body >
+    <header>
+        <div id="hora"></div>
+    </header>
+
+    <section>
+        <div class="block">
+            <h2>social</h2>
+            <ul>
+                <li><a href="">twitter</a></li>
+                <li><a href="">facebook</a></li>
+                <li><a href="">reddit</a></li>
+                <li><a href="">instagram</a></li>
+                <li><a href="">whatsapp</a></li>
+            </ul>
+        </div>
+        <div class="block">
+            <h2>media</h2>
+            <ul>
+                <li><a href="">youtube</a></li>
+                <li><a href="">twitch</a></li>
+                <li><a href="">netflix</a></li>
+                <li><a href="">prime video</a></li>
+                <li><a href="">lastfm</a></li>
+            </ul>
+        </div>
+        <div class="block">
+            <h2>study</h2>
+            <ul>
+                <li><a href="">the odin project</a></li>
+                <li><a href="">css-tricks</a></li>
+                <li><a href="">MDN web docs</a></li>
+                <li><a href="">udemy</a></li>
+                <li><a href="">github</a></li>
+            </ul>
+        </div>
+        <div class="block">
+            <h2>things</h2>
+            <ul>
+                <li><a href="">gmail</a></li>
+                <li><a href="">outlook</a></li>
+                <li><a href="">skoob</a></li>
+                <li><a href="">goodreads</a></li>
+                <li><a href="">how long to beat</a></li>
+            </ul>
+        </div>
+    </section>
+    <div id="seletor">
+        <label for="cor">Primaria</label><input type="color" id="">
+        <label for="cor">Secundaria</label><input type="color" id="">
+    </div>
+    <footer>
+
+    </footer>
+    <script>
+window.onload = displayClock();
+function displayClock() {
+	let time = new Date().toLocaleTimeString();
+
+	document.getElementById("hora").innerText = time;
+	setTimeout(displayClock, 1000); /* setting timer */
+}
+    </script>
+</body>
+</html>

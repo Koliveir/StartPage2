@@ -1,0 +1,126 @@
+:root {
+    --color-primary: /*#495057#988c77#a53860*/#91a8a4;
+    --color-secundary: /*#ADB5BD#cbc6b9#ffa5ab*/#afdedc;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nova Mono', monospace;
+
+    
+
+}
+
+header {
+    color: var(--color-primary);
+    font-size: 100px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+    display: flex;
+    width: 70vw;
+    height: 50vh;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 0/*8%*/;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+    box-sizing: border-box;
+}
+
+.block {
+    border: 2px solid var(--color-primary);
+    box-sizing: border-box;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+/*    -webkit-box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);
+    -moz-box-shadow: 10px 10px 0 -2px var(--color-secundary),10px 10px 0 0 var(--color-primary);
+    box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);*/
+    -webkit-box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);
+    -moz-box-shadow: 5px 5px 0 -2px var(--color-secundary),5px 5px 0 0 var(--color-primary);
+    box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.block:hover {
+/*    -webkit-box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);
+    -moz-box-shadow: 5px 5px 0 -2px var(--color-secundary),5px 5px 0 0 var(--color-primary);
+    box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);*/
+    -webkit-box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);
+    -moz-box-shadow: 10px 10px 0 -2px var(--color-secundary),10px 10px 0 0 var(--color-primary);
+    box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);
+    width: 210px;
+    height: 310px;
+}
+
+.block {
+    color: var(--color-primary);
+}
+
+.block h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    transition: .4s;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.block:hover h2 {
+    font-size: 2.4em;
+}
+
+.block li {
+    list-style: none;
+    font-size: 1.2em;
+    transition: .4s;
+}
+
+.block:hover li {
+    font-size: 1.4em;
+}
+
+.block a {
+    text-decoration: none;
+    color: var(--color-secundary);
+}
+
+.block a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+#seletor {
+    position: fixed;
+    z-index: 1;
+    width: 280px;
+    height: 280px;
+    top: 30px;
+    right: 10px;
+    border: 2px solid var(--color-primary);
+    ry);*/
+    -webkit-box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);
+    -moz-box-shadow: 5px 5px 0 -2px var(--color-secundary),5px 5px 0 0 var(--color-primary);
+    box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);
+
+}
+
+#selector:hover {
+    top: 30px;
+    right: -279px;
+    -webkit-box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);
+    -moz-box-shadow: 10px 10px 0 -2px var(--color-secundary),10px 10px 0 0 var(--color-primary);
+    box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);
+}
