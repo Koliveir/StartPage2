@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Start Page 3</title>
+    <title>Start Page 2</title>
     <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=Ubuntu:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body >
+<body onload="displayClock()">
     <header>
         <div id="hora"></div>
     </header>
@@ -57,18 +57,16 @@
 
     <footer>
         <div id="seletor">
-            <label for="cor">1ª</label><input type="color" id="">
-            <label for="cor">2ª</label><input type="color" id="">
+            <div id="arrow"></div>
+            <label for="cor">1ª</label><input type="color" id="user_color1" onclick="themeColors()">
+            <label for="cor">2ª</label><input type="color" id="user_color2">
+            <input type="radio" name="color" id="color_1" onclick="themeColors()" checked>
+            <input type="radio" name="color" id="color_2" onclick="themeColors()">
+            <input type="radio" name="color" id="color_3" onclick="themeColors()">
         </div>
     </footer>
-    <script>
-window.onload = displayClock();
-function displayClock() {
-	let time = new Date().toLocaleTimeString();
+    <script src="./script/script.js">
 
-	document.getElementById("hora").innerText = time;
-	setTimeout(displayClock, 1000); /* setting timer */
-}
     </script>
 </body>
 </html>
