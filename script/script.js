@@ -30,3 +30,8 @@ function themeColors() {
         document.documentElement.style.setProperty('--color-secundary', usuario);
     }*/
 }
+
+function search() {
+    var pesquisa = document.getElementById("search").value;
+    location.replace("https://www.google.com/search" + pesquisa + "");
+    }

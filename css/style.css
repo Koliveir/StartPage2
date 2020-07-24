@@ -14,7 +14,8 @@
 }
 
 body {
-    font-family: 'Nova Mono', monospace;   
+    font-family: 'Nova Mono', monospace;
+    /*background-color: /*#353535#2d3142*/#46494c;*/
 
 }
 
@@ -24,12 +25,38 @@ header {
     font-weight: 500;
     width: 100vw;
     height: 200px;
-    padding-top: 120px;
+    padding-top: 50px;
     box-sizing: border-box;
     text-align: center;
     margin-top: 0;
     font-family: 'Ubuntu', sans-serif;
 
+}
+
+#pesquisa {
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#pesquisa input {
+    background-color: transparent;
+    font-size: 30px;
+    padding-right: 15px;
+    color: var(--color-primary);
+    width: 25%;
+    height: 40px;
+    border-bottom: 3px solid var(--color-primary);
+}
+
+#pesquisa input::placeholder {
+    font-size: 35px;
+    color: var(--color-secundary);
+}
+
+#pesquisa input:focus {
+    border-bottom: 3px solid var(--color-secundary);
+    outline: none;
 }
 
 section {
@@ -46,12 +73,13 @@ section {
 }
 
 .block {
+    /*background-color: /*#4a4e69#3a506b#4f5d75*/#4c5c68;
     border: 2px solid var(--color-primary);
     box-sizing: border-box;
     width: 200px;
     height: 300px;
     padding: 20px;
-/*    -webkit-box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);
+/*  -webkit-box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);
     -moz-box-shadow: 10px 10px 0 -2px var(--color-secundary),10px 10px 0 0 var(--color-primary);
     box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);*/
     -webkit-box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);
@@ -124,6 +152,7 @@ section {
     right: -230px;
     border: 2px solid var(--color-primary);
     transition: .8s;
+    /*background-color: #393E41;*/
 }
 
 #seletor:hover {
