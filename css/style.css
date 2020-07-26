@@ -28,9 +28,7 @@ header {
     padding-top: 10%;
     box-sizing: border-box;
     text-align: center;
-    margin-top: 0;
     font-family: 'Ubuntu', sans-serif;
-
 }
 
 #pesquisa {
@@ -98,7 +96,7 @@ section {
     -webkit-box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);
     -moz-box-shadow: 5px 5px 0 -2px var(--color-secundary),5px 5px 0 0 var(--color-primary);
     box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);
-    transition: .8s;
+    transition: .4s;
     cursor: pointer;
     color: var(--color-primary);
 }
@@ -121,7 +119,7 @@ section {
 .block h2 {
     font-size: 2em;
     margin-bottom: 30px;
-    transition: .8s;
+    transition: .3s;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -132,7 +130,7 @@ section {
 .block li {
     list-style: none;
     font-size: 1.2em;
-    transition: .8s;
+    transition: .3s;
 }
 
 .block:hover li {
@@ -146,7 +144,8 @@ section {
 
 .block a:hover {
     color: var(--color-primary);
-    text-decoration: underline;
+    text-decoration: line-through;
+    font-weight: 600;
 }
 
 #seletor {
