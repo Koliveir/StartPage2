@@ -1,6 +1,8 @@
 :root {
-    --color-primary: #495057;
-    --color-secundary: #ADB5BD;
+    --color-primary: /*#495057#FFAD00*/#F8B572;
+    --color-secundary: /*#ADB5BD#588b8b#fff8f0#f7fff7*/#63B1BC;
+    --body--backgroundColor: /*#1e1e24#242423*/#363333;
+    --block--backgroundColor: /*#4c5c68*/#333533;
 /*    --color2-primary: #A53860;
     --color2-secundary: #ffa5ab;
     --color3-primary:  #91a8a4;
@@ -15,7 +17,7 @@
 
 body {
     font-family: 'Nova Mono', monospace;
-    /*background-color: /*#353535#2d3142*/#46494c;*/
+    background-color: var(--body--backgroundColor);
 
 }
 
@@ -84,7 +86,7 @@ section {
 }
 
 .block {
-    /*background-color: /*#4a4e69#3a506b#4f5d75*/#4c5c68;
+    background-color: var(--block--backgroundColor);
     border: 2px solid var(--color-primary);
     box-sizing: border-box;
     width: 200px;
@@ -93,9 +95,9 @@ section {
 /*  -webkit-box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);
     -moz-box-shadow: 10px 10px 0 -2px var(--color-secundary),10px 10px 0 0 var(--color-primary);
     box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);*/
-    -webkit-box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);
-    -moz-box-shadow: 5px 5px 0 -2px var(--color-secundary),5px 5px 0 0 var(--color-primary);
-    box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);
+    -webkit-box-shadow: 5px 5px 0 -2px var(--block--backgroundColor), 5px 5px 0 0 var(--color-primary);
+    -moz-box-shadow: 5px 5px 0 -2px var(--block--backgroundColor), 5px 5px 0 0 var(--color-primary);
+    box-shadow: 5px 5px 0 -2px var(--block--backgroundColor), 5px 5px 0 0 var(--color-primary);
     transition: .4s;
     cursor: pointer;
     color: var(--color-primary);
@@ -105,9 +107,9 @@ section {
 /*  -webkit-box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);
     -moz-box-shadow: 5px 5px 0 -2px var(--color-secundary),5px 5px 0 0 var(--color-primary);
     box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);*/
-    -webkit-box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);
-    -moz-box-shadow: 10px 10px 0 -2px var(--color-secundary),10px 10px 0 0 var(--color-primary);
-    box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);
+    -webkit-box-shadow: 10px 10px 0 -2px var(--block--backgroundColor), 10px 10px 0 0 var(--color-primary);
+    -moz-box-shadow: 10px 10px 0 -2px var(--block--backgroundColor),10px 10px 0 0 var(--color-primary);
+    box-shadow: 10px 10px 0 -2px var(--block--backgroundColor), 10px 10px 0 0 var(--color-primary);
     width: 210px;
     height: 310px;
 }
@@ -144,7 +146,6 @@ section {
 
 .block a:hover {
     color: var(--color-primary);
-    text-decoration: line-through;
     font-weight: 600;
 }
 
