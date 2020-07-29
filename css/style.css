@@ -92,9 +92,6 @@ section {
     width: 200px;
     height: 300px;
     padding: 20px;
-/*  -webkit-box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);
-    -moz-box-shadow: 10px 10px 0 -2px var(--color-secundary),10px 10px 0 0 var(--color-primary);
-    box-shadow: 10px 10px 0 -2px var(--color-secundary), 10px 10px 0 0 var(--color-primary);*/
     -webkit-box-shadow: 5px 5px 0 -2px var(--block--backgroundColor), 5px 5px 0 0 var(--color-primary);
     -moz-box-shadow: 5px 5px 0 -2px var(--block--backgroundColor), 5px 5px 0 0 var(--color-primary);
     box-shadow: 5px 5px 0 -2px var(--block--backgroundColor), 5px 5px 0 0 var(--color-primary);
@@ -104,9 +101,6 @@ section {
 }
 
 .block:hover {
-/*  -webkit-box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);
-    -moz-box-shadow: 5px 5px 0 -2px var(--color-secundary),5px 5px 0 0 var(--color-primary);
-    box-shadow: 5px 5px 0 -2px var(--color-secundary), 5px 5px 0 0 var(--color-primary);*/
     -webkit-box-shadow: 10px 10px 0 -2px var(--block--backgroundColor), 10px 10px 0 0 var(--color-primary);
     -moz-box-shadow: 10px 10px 0 -2px var(--block--backgroundColor),10px 10px 0 0 var(--color-primary);
     box-shadow: 10px 10px 0 -2px var(--block--backgroundColor), 10px 10px 0 0 var(--color-primary);
