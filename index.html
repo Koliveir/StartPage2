@@ -64,11 +64,22 @@
     <footer>
         <div id="seletor">
             <div id="arrow"></div>
-            <label for="cor">1ª</label><input type="color" id="user_color1" onclick="themeColors()">
-            <label for="cor">2ª</label><input type="color" id="user_color2">
-            <input type="radio" name="color" id="color_1" onclick="themeColors()" checked>
-            <input type="radio" name="color" id="color_2" onclick="themeColors()">
-            <input type="radio" name="color" id="color_3" onclick="themeColors()">
+            <div id="user_choice">
+                <label for="cor">1ª</label><input type="color" id="user_color1" onclick="themeColors()">
+                <label for="cor">2ª</label><input type="color" id="user_color2">
+                <label for="cor">1ª</label><input type="color" id="user_color1" onclick="themeColors()">
+                <label for="cor">2ª</label><input type="color" id="user_color2">
+            </div>
+            <div id="my_choices">
+                <ul class="colors">
+                    <li id="color_1" onclick="themeColors()" checked></li>
+                    <li id="color_2" onclick="themeColors()"></li>
+                    <li id="color_3" onclick="themeColors()"></li>
+                </ul>
+                <!-- <input type="radio" name="color" id="color_1" onclick="themeColors()" checked>
+                <input type="radio" name="color" id="color_2" onclick="themeColors()">
+                <input type="radio" name="color" id="color_3" onclick="themeColors()"> -->
+            </div>
         </div>
     </footer>
     <script src="./script/script.js">

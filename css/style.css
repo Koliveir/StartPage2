@@ -13,6 +13,7 @@
     margin: 0;
     border: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -151,7 +152,7 @@ section {
     text-align: left;
     font-size: 10pt;
     z-index: 1;
-    width: 270px;
+    width: /*270px*/300px;
     height: 65px;
     padding: 4px;
     box-sizing: border-box;
@@ -186,4 +187,60 @@ section {
 #seletor:hover #arrow {
     transform: rotate(135deg);
     transition: .8s;
+}
+
+#user_choice {
+    width: 100px;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#my_choices {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#color_1 {
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-bottom: 5px solid rgba(0, 0, 0, .1);
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 0 2p;
+    background-color: #eee;
+
+}
+#color_2 {
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-bottom: 5px solid rgba(0, 0, 0, .1);
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 0 2p;
+    background-color: #eee;
+}
+#color_3 {
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-bottom: 5px solid rgba(0, 0, 0, .1);
+    display: inline-block;
+    margin: 0 5px;
+    cursor: pointer;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 0 2p;
+    background-color: #eee;
 }
