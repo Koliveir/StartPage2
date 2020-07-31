@@ -33,5 +33,5 @@ function themeColors() {
 
 function search() {
     var pesquisa = document.getElementById("search").value;
-    location.replace("https://www.google.com/search" + pesquisa + "");
-    }
+    location.replace("https://www.google.com/search" + pesquisa + ""); 
+}
