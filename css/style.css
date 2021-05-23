@@ -1,8 +1,8 @@
 :root {
     --color-primary: /*#495057#FFAD00*/#F8B572;
     --color-secundary: /*#ADB5BD#588b8b#fff8f0#f7fff7*/#63B1BC;
-    --body--backgroundColor: /*#1e1e24#242423*/#363333;
-    --block--backgroundColor: /*#4c5c68*/#333533;
+    --body--backgroundColor: /*#1e1e24#242423*/#171717;
+    --block--backgroundColor: /*#4c5c68*/#03161C;
 /*    --color2-primary: #A53860;
     --color2-secundary: #ffa5ab;
     --color3-primary:  #91a8a4;
@@ -18,7 +18,10 @@
 
 body {
     font-family: 'Nova Mono', monospace;
-    background-color: var(--body--backgroundColor);
+    /*background-color: var(--body--backgroundColor);*/
+    background-image: url(/images/background-image3.jpg);
+    background-size: cover;
+
 
 }
 
